@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Qcloud</title>
   <style>
     body {
       white-space: pre-line;
@@ -8,10 +9,9 @@
       font-size: 14px;
     }
   </style>
-  <title>Qcloud</title>
 </head>
-<body>
-  <div>Qcloud</div>
+<body onload="load()">
+  <img src="https://mc.qcloudimg.com/static/img/19ca972846e40280ea9dfc3b7dabc527/image.png" />
 <script>
   function log() {
     document.body.appendChild(document.createTextNode(Array.prototype.join.call(arguments, ", ") + '\n'));
@@ -28,6 +28,7 @@
   }).catch(function(err) {
     log("Error", err);
   });
+  document.onl
 </script>
 </body>
 </html>
