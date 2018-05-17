@@ -17,7 +17,6 @@
     document.body.appendChild(document.createTextNode(Array.prototype.join.call(arguments, ", ") + '\n'));
     console.log.apply(console, arguments);
   }
-  return;
   window.onerror = function(err) {
     log("Error", err);
   };
